@@ -46,7 +46,7 @@ web_server_start(Port, Dispatcher) ->
 init(Req, E0) ->   
     %% io:format("init:~n"),
     Resource = path(Req),
-    %% io:format("Resource:~p~n",[Resource]),
+    io:format("Resource:~p~n",[Resource]),
     case Resource of
 	["/", "websocket",ModStr] ->
 	    Self = self(),
