@@ -6,7 +6,7 @@
 
 start() ->
     io:format("a simple_demo of websockets....~n"),
-    Port = 1456,
+    Port = 8888,
     io:format("Load the page http://localhost:~p/ in your browser~n",[Port]),
     ezwebframe:start_link(fun dispatch/1, Port).
 
