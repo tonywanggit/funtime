@@ -25,6 +25,7 @@ rebar get-deps
 3.配置依赖库路径
 
 vim ~/.erlang
+
 Home=os:getenv("HOME").
 io:format("Home ~p~n", [Home]).
 Dir = "/opt/erlang_imports/deps".
