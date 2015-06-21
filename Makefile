@@ -5,3 +5,6 @@ all:
 live:
 	rebar compile
 	cd demos; make live
+
+
+dev
