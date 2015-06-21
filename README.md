@@ -21,6 +21,8 @@ vim rebar.config
 
 rebar get-deps
 
+rebar compile
+
 -------------------------------------------------------
 3.配置依赖库路径 
 
