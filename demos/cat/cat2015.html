@@ -1,10 +1,90 @@
-<!DOCTYPE html>
+
+<!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>神经猫</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+  <meta http-equiv="expires" content="-1">
+  <title>
+    看你有多色
+  </title>
+  <link rel="stylesheet" href="http://www.banghui.org/wechat/game/haose/m.css?ver=2014073101">
+  <style>
+    [touch-action="none"]{-ms-touch-action:none;touch-action:none;}[touch-action="pan-x"]{-ms-touch-action:pan-x;touch-action:pan-x;}[touch-action="pan-y"]{-ms-touch-action:pan-y;touch-action:pan-y;}[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{-ms-touch-action:pan-x pan-y;touch-action:pan-x pan-y;}
+  </style>
+  <style id="style-1-cropbar-clipper">
+    /* Copyright 2014 Evernote Corporation. All rights reserved. */
+   .en-markup-crop-options{top:18px !important;left:50% !important;margin-left:-90px !important;width:180px !important;border:2px rgba(255,255,255,.38) solid !important;border-radius:4px !important;}.en-markup-crop-options div div:first-of-type{margin-left:0px !important;}
+  </style>
 </head>
+
 <body>
-<h1>欢迎来抓神经猫！</h1>
+  <div class="grid">
+    <div class="page hide" id="loading" style="display: none;">
+      loading...
+    </div>
+    <div class="page hide" id="index" style="display: block;">
+      <h1>看你有多色</h1>
+      <div id="help">找出所有色块里颜色不同的一个</div>
+      <div class="btns">
+        <button data-type="color" class="btn play-btn">
+          开始游戏
+        </button>
+      </div>
+    </div>
+    <div class="page hide" id="room">
+      <header>
+        <span class="lv">得分：<em>1</em></span>
+        <span class="time"></span>
+        <span class="btn btn-pause">暂停</span>
+      </header>
+      <div id="box" class="lv1">
+      </div>
+    </div>
+    <div class="page hide" id="dialog">
+      <div class="inner">
+        <div class="content gameover">
+          <p>
+            经鉴定，您是：
+          </p>
+          <h3></h3>
+          <div class="btn-wrap">
+            <button class="btn btn-restart">
+              再来一次
+            </button>
+			<a href="http://www.banghui.org" target="_blank" class="btn btn-boyaa">
+				精彩文章...
+			</a>
+          </div>
+        </div>
+        <div class="content pause">
+          <h3>游戏暂停</h3>
+          <div class="btn-wrap">
+            <button class="btn btn-resume">
+              继续游戏
+            </button>
+			<a href="http://weibo.com/matinalposthouse" target="_blank" class="btn btn-boyaa">
+				关注我们...
+			</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="http://www.banghui.org/wechat/game/haose/libs.min.js?2014073101"></script>
+  <script src="http://www.banghui.org/wechat/game/haose/main.min.js?2014073101"></script>
+  
+  <div style="display:none;">
+	<script type="text/javascript" src="http://tajs.qq.com/stats?sId=31454204" charset="UTF-8"></script>
+	<script type="text/javascript">
+	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F6c8803810234af89f6deb2a5845c6cd4' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+   </div>
+  
 </body>
 </html>
