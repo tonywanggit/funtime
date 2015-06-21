@@ -7,4 +7,4 @@ live:
 	cd demos; make live
 
 
-dev
+echo dev
