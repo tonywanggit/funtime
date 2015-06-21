@@ -22,21 +22,6 @@ vim rebar.config
 rebar get-deps
 
 -------------------------------------------------------
-<<<<<<< HEAD
-3.配置依赖库路径 1
-
-vim ~/.erlang
-
-Home=os:getenv("HOME").
-io:format("Home ~p~n", [Home]).
-Dir = "/opt/erlang_imports/deps".
-{ok, L} = file:list_dir(Dir).
-io:format("Dir: ~p~n", [L]).
-lists:foreach(fun(I) ->
-    Path = Dir ++ "/" ++ I ++ "/ebin",
-    code:add_path(Path)
-end, L).
-=======
 3.配置依赖库路径 
 
 vim ~/.erlang
@@ -57,4 +42,3 @@ end, L).
 make && install
 
 
->>>>>>> branch 'master' of https://github.com/tonywanggit/funtime.git
