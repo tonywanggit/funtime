@@ -5,6 +5,11 @@ all: beam
 	    -pa ./ebin\
         -detached\
 		-s ezwebframe_demos start
+		
+live: beam
+	erl -pa ../ebin\
+	    -pa ./ebin\
+		-s ezwebframe_demos start		
 
 beam: 
 	erlc -o ebin *.erl */*.erl
